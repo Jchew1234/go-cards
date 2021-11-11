@@ -2,12 +2,15 @@ package main
 
 import "fmt"
 
-func main() {
-	card := newCard()
+// func main() {
+// 	printState()
+// }
 
-	fmt.Println(card)
+func main() {
+	cards := []string{"Ace of Diamonds", newCard()}
+	fmt.Println(cards)
 }
 
-func newCard() int {
-	return 12
+func newCard() string {
+	return "Five of Diamonds"
 }
