@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// cards := deck{"Ace of Diamonds", newCard()}
 	// cards = append(cards, "Six of Spades")
@@ -15,8 +13,9 @@ func main() {
 	// remainingDeck.print()
 	// // cards.print()
 
-	greeting := "Hi there!"
-	fmt.Println([]byte(greeting))
+	// type conversion example of string to byte slice.
+	// greeting := "Hi there!"
+	// fmt.Println([]byte(greeting))
 }
 
 func newCard() string {
