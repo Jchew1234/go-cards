@@ -4,7 +4,11 @@ func main() {
 	// cards := deck{"Ace of Diamonds", newCard()}
 	// cards = append(cards, "Six of Spades")
 
-	cards := newDeckFromFile("my_cards")
+	// cards := newDeckFromFile("my_cards")
+	// cards.print()
+
+	cards := newDeck()
+	cards.shuffle()
 	cards.print()
 
 	// cards := newDeck()
