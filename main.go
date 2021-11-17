@@ -4,8 +4,11 @@ func main() {
 	// cards := deck{"Ace of Diamonds", newCard()}
 	// cards = append(cards, "Six of Spades")
 
-	cards := newDeck()
-	cards.saveToFile("my_cards")
+	cards := newDeckFromFile("my_cards")
+	cards.print()
+
+	// cards := newDeck()
+	// cards.saveToFile("my_cards")
 	// fmt.Println(cards.toString())
 
 	// hand, remainingDeck := deal(cards, 5)
